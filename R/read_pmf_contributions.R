@@ -11,6 +11,11 @@
 #' @export
 read_pmf_contributions <- function(file, tz = "UTC") {
   
+  # Add warning if file is text file
+  if(file is text file) {
+    warning("File type txt is not supported")
+  }
+  
   # Load data
   # Supression is for two missing column names
   suppressWarnings(
